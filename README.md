@@ -10,14 +10,15 @@ In this lab, you'll need to demonstrate how to access `global` and `process` var
 
 ## Introduction
 
-`global` have other global objects like `process`, while `global.process` or just `process` have system information. 
+`global` have other global objects like `process`, while `global.process` or just `process` have system information.
 
 ## Instructions
 
-1. Create a script `version.js` which outputs the current node version 
-2. Create a script `envvar.js` which outputs `NODE_ENV` environment variable
-3. Create a script `platform.js` which outputs the platform name on which you are running it
+1. Create a script version.js which returns the current node version. Export with `module.exports = function(){...}`
+2. Create a script `envvar.js` which returns `NODE_ENV` environment variable. Export with `module.exports = function(){...}`
+3. Create a script `platform.js` which returns the platform name on which you are running it. Export with `module.exports = function(){...}`
 4. Run `$ npm test` to verify your 3 solutions
+
 
 
 ### Extra Info
