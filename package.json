@@ -1,0 +1,23 @@
+{
+  "name": "node-process-lab",
+  "version": "1.0.0",
+  "description": "Access Global and Process Variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=qa node_modules/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-co-curriculum/node-process-lab.git"
+  },
+  "author": "Azat Mardan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/node-process-lab/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/node-process-lab#readme",
+  "devDependencies": {
+    "mocha": "2.4.5",
+    "chai": "3.5.0"
+  }
+}
