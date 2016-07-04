@@ -1,9 +1,9 @@
 var expect = require('chai').expect
 var fs = require('fs')
 var path = require('path')
-var expectedNodeVersion = 'v5.6.0'
+var expectedNodeVersion = 'v5.3.0'
 var expectedPlatform = ['darwin', 'linux']
-var expectedEnv = 'qa'
+var expectedEnv = undefined //'qa'
 
 describe('node', function () {
   it('must have version ' + expectedNodeVersion, function(done){
@@ -29,5 +29,3 @@ describe('env var NODE_ENV', function () {
     done()
   })
 })
-
-
