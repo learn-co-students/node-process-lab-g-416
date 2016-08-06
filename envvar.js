@@ -1,1 +1,3 @@
-module.exports = 'qa'
+module.exports = function() {
+  return process.env.NODE_ENV
+}

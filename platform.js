@@ -1,1 +1,3 @@
-module.exports = 'darwin'
+module.exports = function() {
+  return process.platform
+}

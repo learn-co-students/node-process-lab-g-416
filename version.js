@@ -1,1 +1,3 @@
-module.exports = 'v5.6.0'
+module.exports = function() {
+  return process.version
+}
