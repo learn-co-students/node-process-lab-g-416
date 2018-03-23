@@ -1,5 +1,5 @@
-function currentEnv(){
-  return process.env.NODE_ENV
+function environmentVar() {
+	return process.env.NODE_ENV
 }
 
-module.exports = currentEnv;
+module.exports = environmentVar;
