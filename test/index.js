@@ -1,7 +1,9 @@
 var expect = require('chai').expect
 var fs = require('fs')
 var path = require('path')
-var expectedNodeVersion = 'v5.6.0'
+// Removed hardcoded expectedNodeVersion v5.6.0.
+// Now being assigned the value of the current version installed on users system.
+var expectedNodeVersion = process.version
 var expectedPlatform = ['darwin', 'linux']
 var expectedEnv = 'qa'
 
@@ -21,7 +23,6 @@ describe('platform', function () {
   })
 })
 
-
 describe('env var NODE_ENV', function () {
   it('must be ' + expectedEnv, function(done){
     var actualEnv = require(path.join(__dirname, '../envvar'))()
@@ -29,5 +30,3 @@ describe('env var NODE_ENV', function () {
     done()
   })
 })
-
-
