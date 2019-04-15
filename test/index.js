@@ -1,7 +1,7 @@
 var expect = require('chai').expect
 var fs = require('fs')
 var path = require('path')
-var expectedNodeVersion = 'v5.6.0'
+var expectedNodeVersion = '8.15.1'
 var expectedPlatform = ['darwin', 'linux']
 var expectedEnv = 'qa'
 
