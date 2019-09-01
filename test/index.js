@@ -3,7 +3,7 @@ var fs = require('fs')
 var path = require('path')
 var expectedNodeVersion = 'v10.15.3'
 var expectedPlatform = ['darwin', 'linux']
-var expectedEnv = undefined
+var expectedEnv = 'qa'
 
 describe('node', function () {
   it('must have version ' + expectedNodeVersion, function(done){

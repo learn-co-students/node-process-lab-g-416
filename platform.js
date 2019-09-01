@@ -1,1 +1,1 @@
-module.exports = () => { return process.platform }
+module.exports = () => process.platform
