@@ -22,12 +22,6 @@ describe('platform', function () {
 })
 
 
-describe('env var NODE_ENV', function () {
-  it('must be ' + expectedEnv, function(done){
-    var actualEnv = require(path.join(__dirname, '../envvar'))()
-    expect(actualEnv).to.equal(expectedEnv)
-    done()
-  })
-})
+
 
 
