@@ -1,10 +1,11 @@
+
 {
   "name": "node-process-lab",
   "version": "1.0.0",
   "description": "Access Global and Process Variables",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=qa node_modules/mocha/bin/mocha test"
+    "test": "NODE_ENV=qa mocha test"
   },
   "repository": {
     "type": "git",
